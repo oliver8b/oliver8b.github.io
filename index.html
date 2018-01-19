@@ -1,0 +1,308 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<head>oliver</head>
+<!-- stats - count particles -->
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<style>
+	/* ---- reset ---- */
+
+	body {
+		margin: 0;
+		font: normal 75% Arial, Helvetica, sans-serif;
+	}
+
+	canvas {
+		display: block;
+		vertical-align: bottom;
+	}
+	/* ---- particles.js container ---- */
+
+	#particles-js {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #35B88F;
+		background-image: url("");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+	/* ---- stats.js ---- */
+
+	h1 {
+		text-align: center;
+	}
+
+	.count-particles {
+		background: #000022;
+		position: absolute;
+		top: 48px;
+		left: 0;
+		width: 80px;
+		color: #13E8E9;
+		font-size: .8em;
+		text-align: left;
+		text-indent: 4px;
+		line-height: 14px;
+		padding-bottom: 2px;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+	}
+
+	.count-particles {
+		border-radius: 0 0 3px 3px;
+	}
+</style>
+<script>
+	particlesJS("particles-js", {
+		particles: {
+			number: {
+				value: 50,
+				density: {
+					enable: true,
+					value_area: 1000
+				}
+			},
+			color: {
+				value: '#ffffff'
+			},
+			shape: {
+				type: 'circle',
+				stroke: {
+					width: 1,
+					color: '#ffffff'
+				},
+				polygon: {
+					nb_sides: 4
+				},
+				image: {
+					src: 'img/github.svg',
+					width: 100,
+					height: 100
+				}
+			},
+			opacity: {
+				value: 0.5,
+				random: false,
+				anim: {
+					enable: false,
+					speed: 1,
+					opacity_min: 0.1,
+					sync: false
+				}
+			},
+			size: {
+				value: 1,
+				random: true,
+				anim: {
+					enable: false,
+					speed: 40,
+					size_min: 0.1,
+					sync: false
+				}
+			},
+			line_linked: {
+				enable: true,
+				distance: 175,
+				color: '#ff0000',
+				opacity: 0.4,
+				width: 1
+			},
+			move: {
+				enable: true,
+				speed: 2.5,
+				direction: 'none',
+				random: false,
+				straight: false,
+				out_mode: 'bounce',
+				bounce: true,
+				attract: {
+					enable: false,
+					rotateX: 600,
+					rotateY: 1200
+				}
+			}
+		},
+		interactivity: {
+			detect_on: 'window',
+			events: {
+				onhover: {
+					enable: true,
+					mode: ['grab']
+				},
+				onclick: {
+					enable: true,
+					mode: 'repulse'
+				},
+				resize: true
+			},
+			modes: {
+				grab: {
+					distance: 150,
+					line_linked: {
+						opacity: 1
+					}
+				},
+				bubble: {
+					distance: 400,
+					size: 40,
+					duration: 2,
+					opacity: 8,
+					speed: 3
+				},
+				repulse: {
+					distance: 200,
+					duration: 10
+				},
+				push: {
+					particles_nb: 10
+				},
+				remove: {
+					particles_nb: 2
+				}
+			}
+		},
+		retina_detect: true
+	});
+	update = function () {
+		requestAnimationFrame(update);
+	}
+	requestAnimationFrame(update);
+</script>
+
+
+
+
+
+<html>
+
+<head>
+	<title href="https://github.com/odb/official-bash-logo/blob/master/assets/Logos/Icons/PNG/512x512.png?raw=true">Oliver Boudet</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<h1>Oliver Boudet</h1>
+			<p></p>
+		</header>
+		<footer>
+			<a href="#banner" class="button style2 scrolly-middle">Click Me.</a>
+		</footer>
+	</section>
+
+	<!-- Banner -->
+	<section id="banner">
+		<header>
+			<h2>I am Oliver.</h2>
+		</header>
+		<p>What I do and know.</p>
+	</section>
+
+	<!-- Feature 1 -->
+	<article id="first" class="container box style1 right">
+		<a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/" class="image fit">
+			<img src="https://github.com/odb/official-bash-logo/blob/master/assets/Logos/Icons/PNG/512x512.png?raw=true" alt="" />
+		</a>
+		<div class="inner">
+			<header>
+				<h2>C#
+					<br />
+				</h2>
+			</header>
+			<p>I've been coding in C# for about 3 months.</p>
+		</div>
+	</article>
+
+	<!-- Feature 2 -->
+	<article class="container box style1 left">
+		<a href="#" class="image fit">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"
+			    alt="" />
+		</a>
+		<div class="inner">
+			<header>
+				<h2>Javascript</h2>
+			</header>
+			<p>I recently started writing in Javascript and made a
+				<a href="https://discord.gg/">Discord </a>bot which you can add to any server using
+				<a target="_blank" href="https://discordapp.com/oauth2/authorize?client_id=383743144908292096&permissions=8&scope=bot">this link</a>.</p>
+		</div>
+	</article>
+
+
+	<section id="footer">
+		<ul class="icons">
+			<li>
+				<a target=_blank href="https://twitter.com/OliverBoudet/" class="icon fa-twitter">
+					<span class="label">Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a target=_blank href="https://www.instagram.com/oliver_boudet/" class="icon fa-instagram">
+					<span class="label">Instagram</span>
+				</a>
+			</li>
+			<li>
+				<a target=_blank href="https://plus.google.com/112545889382602928221/" class="icon fa-google-plus">
+					<span class="label">Google+</span>
+				</a>
+			</li>
+			<li>
+				<a target=_blank href="https://github.com/olvrb/" class="icon fa-github">
+					<span class="label">Github</span>
+				</a>
+			</li>
+			<li>
+				<a target=_blank href="mailto:oboudet95@gmail.com" class="icon fa-envelope-o">
+					<span class="label">e-mail</span>
+				</a>
+			</li>
+			<li>
+				<a target=_blank href="https://imgur.com/user/Oli8/" class="icon fa-picture-o">
+					<span class="label">imgur</span>
+				</a>
+			</li>
+			<li>
+				<a target=_blank href="https://www.snapchat.com/add/oliven15/" class="icon fa-snapchat">
+					<span class="label">snapchat</span>
+				</a>
+			</li>
+		</ul>
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; Oliver Boudet. All rights reserved.</li>
+				<li>Design:
+					<a href="http://html5up.net">HTML5 UP</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
