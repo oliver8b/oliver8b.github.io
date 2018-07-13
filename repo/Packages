@@ -1,0 +1,15 @@
+Package: com.yourepo.olix.flatcons
+Version: 1.4.1-requests
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: ./debs/com.olix.flatcons.deb
+Size: 2371996
+MD5sum: 973cd7a09598b1fc4d38668648bcfd7a
+SHA1: 094d37ec915bb8c9f3984c1fc101b372f942fce6
+SHA256: 5507ed6a585a00f8e92da4d146e887a6de6bc13da4dbc0c4200efe64269e127e
+Section: Themes
+Description: A flat theme ported from Android. Ported by @Oliver#5583 and [JPB] @L!T#2823 (Colin). Send icon requests to colixiconsrequests@gmail.com.
+Author: Oliver + Colin
+Depiction: https://olvrb.github.io/repo/index.html
+Name: Flatcons
+
