@@ -3,8 +3,8 @@ Name: Flatcons
 Version: 1.4.1-requests
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Description: A flat theme ported from Android. Ported by @Oliver#5583 and [JPB] @L!T#2823 (Colin). Send icon requests to colixiconsrequests@gmail.com.
-Author: Oliver + Colin
+Description: A flat theme ported from Android. Ported by @olvier_. Send icon requests to me on Discord: oliver#9880
+Author: Oliver Boudet
 Depiction: https://olvrb.github.io/repo/index.html
 Section: Themes
 
