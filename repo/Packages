@@ -1,0 +1,33 @@
+Package: com.oliverb.flatcons
+Version: 1.4.1-requests
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: debs/com.oliverb.flatcons.deb
+Size: 2285960
+MD5sum: 2a0a34f4704cbd12d14eeac963d4f509
+SHA1: abfb866f3fe1d170988bdc5372a714add174ecc1
+SHA256: ff292395e25e97f2b5722bad8dc286413bf5457048e7ab8b361413933a336097
+Section: Themes
+Description: A flat theme ported from Android. Ported by @olvier_. Send icon requests to me on Discord: oliver#9880
+Author: Oliver Boudet
+Depiction: https://olvrb.github.io/repo/depics/flatcons.html
+Name: Flatcons
+
+Package: com.olvrb.Gimmlet
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Oliver Boudet <oboudet1@me.com>
+Filename: debs/gimlet.deb
+Size: 117616
+MD5sum: 8697f5c5eba3c9763801cbae0c6c3b19
+SHA1: 4fe1f225311709402a62a8eb21b4da35ec5dd322
+SHA256: 3b3242f4270aebbd125b78b33e82ea8e301a3665c18a60a8e6afaeb140cafe2d
+Section: Widgets
+Homepage: https://reoo.me
+Description: A XenHTML widget inspired by Cataracts, originally made by Jesse Bryan.
+Author: Oliver Boudet (olvrb) <oboudet1@me.com>
+Dependencies: com.junesiphone.xeninfo
+Depiction: https://olvrb.github.io/repo/depics/gimlet.html
+Name: Gimlet
+Sponsor: fuck I'm not making any money
+
